@@ -1,0 +1,48 @@
+body {
+  padding-top: 110px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.navbar-nav > li > a {
+  position: relative;
+  padding: 35px;
+}
+
+.navbar-nav > li > a:after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 13px;
+  background: url(../img/menu_division.png) center no-repeat;
+  position: absolute;
+  right: -5px;
+  top: 38px;
+  z-index: 5;
+}
+
+.navbar-nav > li:last-child > a:after {
+  display: none;
+}
+
+.margin-auto-center {
+  margin: 0 auto;
+  float: none;
+  text-align: center;
+}
+
+.col-lg-4 {
+  text-align: center;
+}
+
+.img-thumbnail {
+  border-radius: 0;
+}
+
+.nav-tabs.nav-justified>li>a {
+  border-bottom: none;
+  color: #fff;
+
+}

@@ -1,0 +1,47 @@
+@media (max-width: 346px) {
+
+  .navbar-brand {
+    padding: 8px 15px;
+  }
+
+  .navbar-header img {
+    height: 35px;
+  }
+
+  .navbar-header {
+    min-height: 54px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .navbar-header {
+    min-height: 70px;
+  }
+
+  .navbar-header img {
+    height: 45px;
+    width: auto;
+  }
+
+  .navbar-nav > li > a:after {
+    display: none;
+  }
+
+  .navbar-nav > li > a {
+    padding: 15px;
+  }
+
+  body {
+    padding-top: 80px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-nav > li > a {
+    padding: 35px 12px;
+  }
+}
+
+
+
