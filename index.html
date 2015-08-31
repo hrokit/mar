@@ -84,7 +84,7 @@
   <br><hr><br>
 
   <!--SOBRE-->
-  <session id="sobre">
+  <section id="sobre">
     <div class="container">
       <h2>SOBRE</h2>
         <br>
@@ -113,12 +113,12 @@
         </div>
       </div>
     </div>
-  </session><!--End SOBRE-->
+  </section><!--End SOBRE-->
 
   <br><hr><br>
 
   <!--SERVIÇOS-->
-  <session id="servicos">
+  <section id="servicos">
     <div class="container">
       <h2>SERVIÇOS</h2>
       <br>
@@ -149,38 +149,52 @@
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
     </div>
-  </session><!--End SERVIÇOS-->
+  </section><!--End SERVIÇOS-->
 
   <br><hr><br>
 
-  <session id="portfolio">
+  <section id="portfolio">
     <div class="container">
-      <h2>PORTFOLIO</h2>
       <div class="row">
         <div class="navbar navbar-inverse">
           <div class="col-lg-4 col-lg-offset-4">
             <ul class="nav nav-tabs nav-justified">
-              <li><a href="href#">TUDO</a></li>
-              <li><a href="href#">LOIÇA</a></li>
-              <li><a href="href#">PAPEL</a></li>
-              <li><a href="href#">PAINEIS</a></li>
+              <li class="filter" data-filter="all">TUDO</li>
+              <li class="filter" data-filter=".loica">LOIÇA</li>
+              <li class="filter" data-filter=".papel">PAPEL</li>
+              <li class="filter" data-filter=".paineis">PAINEIS</li>
             </ul>
           </div>
         </div>
       </div>
+
+      <div class="row" id="portfolio-img">
+        <div class="col-lg-3 col-md-3 mix loica"><img src="http://lorempixel.com/260/180" alt="image"></div>
+        <div class="col-lg-3 col-md-3 mix loica"><img src="http://lorempixel.com/260/180" alt="image"></div>
+        <div class="col-lg-3 col-md-3 mix loica"><img src="http://lorempixel.com/260/180" alt="image"></div>
+        <div class="col-lg-3 col-md-3 mix papel"><img src="http://lorempixel.com/260/180/people" alt="image"></div>
+        <div class="col-lg-3 col-md-3 mix papel"><img src="http://lorempixel.com/260/180/people" alt="image"></div>
+        <div class="col-lg-3 col-md-3 mix papel"><img src="http://lorempixel.com/260/180/people" alt="image"></div>
+        <div class="col-lg-3 col-md-3 mix papel"><img src="http://lorempixel.com/260/180/people" alt="image"></div>
+        <div class="col-lg-3 col-md-3 mix paineis"><img src="http://lorempixel.com/260/180/business" alt="image"></div>
+        <div class="col-lg-3 col-md-3 mix paineis"><img src="http://lorempixel.com/260/180/business" alt="image"></div>
+        <div class="col-lg-3 col-md-3 mix paineis"><img src="http://lorempixel.com/260/180/business" alt="image"></div>
+        <div class="col-lg-3 col-md-3 mix paineis"><img src="http://lorempixel.com/260/180/business" alt="image"></div>
+        <div class="col-lg-3 col-md-3 mix paineis"><img src="http://lorempixel.com/260/180/business" alt="image"></div>
+      </div>
     </div>
-  </session>
+  </section>
 
   <br><hr><br>
 
-  <session id="contactos">
+  <section id="contactos">
     <div class="container">
       <h2>CONTACTOS</h2>
       <div class="row">
 
       </div>
     </div>
-  </session>
+  </section>
 
 
 <!-- Bootstrap core JavaScript
@@ -188,5 +202,11 @@
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.mixitup.min.js"></script>
+  <script>
+    $(function(){
+  $('#portfolio-img').mixItUp();
+});
+  </script>
 </body>
 </html>
