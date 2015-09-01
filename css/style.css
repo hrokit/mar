@@ -6,6 +6,10 @@ h2 {
   text-align: center;
 }
 
+img {
+  max-width: 100%;
+}
+
 .navbar-nav > li > a {
   position: relative;
   padding: 35px;
@@ -51,4 +55,18 @@ h2 {
 
 .mix{
   display: none;
+}
+
+.logo-big {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  top: 10px;
+  left: 50%;
+  margin-left: -175px;
+  z-index: 5;
+}
+
+.item img {
+  width: 100%;
 }
