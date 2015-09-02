@@ -70,3 +70,13 @@ img {
 .item img {
   width: 100%;
 }
+
+footer {
+  height: 200px;
+  background-color: #333;
+  text-align: center;
+}
+
+footer .text-muted {
+    color: #fff;
+}
