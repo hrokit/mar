@@ -72,11 +72,18 @@ img {
 }
 
 footer {
-  height: 200px;
+  height: 100px;
   background-color: #333;
+  color: #fff;
   text-align: center;
 }
 
 footer .text-muted {
-    color: #fff;
+    color: #777;
+}
+
+.soc-buttons > a {
+  font-size: 48px;
+  margin-left: 48px;
+  color: #fff;
 }
