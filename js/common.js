@@ -22,4 +22,11 @@ $(document).ready(function() {
     return false;
   });
 
+  $('.fancybox').fancybox({
+      padding : 0,
+      openEffect  : 'elastic'
+  });
+
 });
+
+//////////////////////////////////////////////////////////////////
